@@ -7,7 +7,7 @@ module.exports = function(app,router){
 		console.log('Something happening');
 		next();
 	});
-	app.use(bodyParser.urlencoded({extended:true}));
+	app.use(bodyParser.urlencoded({extended:false}));
 	app.use(bodyParser.json());
 	
 	router.get('/',function(req,res){

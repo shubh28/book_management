@@ -2,7 +2,6 @@ body{
 	font-family:Microsoft Jhenghei light;
 }
 
-
 p{
 	font-size:2em;
 }
@@ -14,11 +13,26 @@ p{
 	font-size:1em;
 }
 
-
 .table-hover{
 	width:70%;
 }
 
 a:hover{
-			text-decoration:none;
+	text-decoration:none;
+}
+#main{
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ), url(images/img2.jpg) no-repeat center;
+	height:100vh;
+	font-family:Microsoft Jhenghei light;
+}
+
+.mymain{
+	padding:12% 5%;
+}
+
+.main-head{
+	color:white; font-family:Impact; font-size:5.5em;
+}
+thead{
+	background-color:#0066ff; color:white; font-family:Microsoft Jhenghei light;
 }

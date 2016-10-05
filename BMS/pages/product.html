@@ -1,0 +1,37 @@
+<div>
+<div id="main" style="height:60%">
+		<p style="padding:1em 2em;"><a style="color:white;" href="/">Home</a></p>
+		<div class="container text-center" >
+		<h1 class="main-head">Choose from a huge variety of books </h1>
+	</div>
+</div>
+<br><br><br>
+<div class="container">
+<div class="row">
+
+<div class="col-md-5"><center><img id="2" src="{{product.image_url}}" class="img-responsive" alt="book" width="300vw" ></center></div>
+
+<div class="col-md-7" style="padding:1vmax 0vmax 0vmax 0vmax; text-align:left; font-size:2.2em;">
+
+		<p> {{product.name}} </p>
+		<br><p id="pd">Availablity : {{product.availability}} </p>
+		<p id="pd">Price : {{product.price}}</p>
+		<button class="btn btn-info">Buy now</button>
+</div>
+
+</div>	
+</div>
+</div>
+<br><br><br>
+<script>
+$("#1").hide();
+$("#2").hide();
+
+$(document).ready(function(){
+	$("#1").fadeIn(1000);
+	$("#2").show(1000);
+
+
+});
+
+</script>
