@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>Home</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">  
+<body>
+
+
+	<div id="1" style="background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ), url(images/img2.jpg) no-repeat center; height:100%; font-family:Microsoft Jhenghei light;">
+		<div class="container" style="padding:12% 5%; text-align:center;">
+		<p><h1 style="color:white; font-family:Impact; font-size:5.5em;">	So many books, so little time.  </h1><br><br><br>
+		<center id="2" ><input class="form-control" style="width:70%;" placeholder="Which one are you looking for...">
+		<br>
+		<a href="#results" id="but" class="btn btn-info" style="font-size:2em; padding:0.5% 4%;">Search</a></center>
+		</div>
+		</div>
+		
+
+<div id="res"> 
+<a name="results"></a>	
+	<p style="padding:1em; font-size:4em;">Your search results:</p>
+	
+<div id="table" class="container">
+  <table class="table table-hover">
+    <thead style="background-color:#0066ff; color:white; font-family:Microsoft Jhenghei light;" >
+      <tr>
+        <th>Book Name</th>
+        <th>Price</th>
+        <th>Buy</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td><button class="btn btn-info">Buy</button></td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td><button class="btn btn-info">Buy</button></td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td><button class="btn btn-info">Buy</button></td>
+      </tr>
+    </tbody>
+  </table>
+  <br><br><br>
+</div>
+</div>
+
+<script>
+$("#1").hide();
+$("#2").hide();
+$("#res").hide();
+
+
+$(document).ready(function(){
+	$("#1").fadeIn(500);
+	$("#2").fadeIn(1000);
+
+	$("#but").click(function(){
+		$("#res").show();
+	});
+
+});
+
+</script>
+
+</body>
+
+</head>
+
+</html>

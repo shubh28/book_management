@@ -1,0 +1,24 @@
+body{
+	font-family:Microsoft Jhenghei light;
+}
+
+
+p{
+	font-size:2em;
+}
+
+.btn-info{	
+	background-color:#0066ff;
+}
+#pd{
+	font-size:1em;
+}
+
+
+.table-hover{
+	width:70%;
+}
+
+a:hover{
+			text-decoration:none;
+}

@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>Product</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">  
+<body>
+	
+
+
+<div id="1" style="background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ), url(images/img1.jpg) no-repeat top center; height:60%; font-family:Microsoft Jhenghei light;">
+		<p style="padding:1em 2em;"><a style="color:white;" href="index.html">Home</a></p>
+		<div class="container" style="padding:2%; text-align:center;">
+		<p style="font-size:3.5em; color:white; text-align:center;">Choose from a huge variety of books </p>
+	</div>
+</div>
+<br><br><br>
+<div class="container">
+<div class="row">
+
+<div class="col-md-5"><center><img id="2" src="images/book1.jpg" class="img-responsive" alt="book" width="300vw" ></center></div>
+
+<div class="col-md-7" style="padding:1vmax 0vmax 0vmax 0vmax; text-align:left; font-size:2.2em;">
+
+		<p> The Jungle Book </p>
+		<br><p id="pd">Availablity : In stock </p>
+		<p id="pd">Price : Rs 900</p>
+		<button class="btn btn-info">Buy now</button>
+</div>
+
+</div>	
+</div>
+	
+<br><br><br>
+<script>
+$("#1").hide();
+$("#2").hide();
+
+$(document).ready(function(){
+	$("#1").fadeIn(1000);
+	$("#2").show(1000);
+
+
+});
+
+</script>
+
+</body>
+
+</head>
+
+</html>
